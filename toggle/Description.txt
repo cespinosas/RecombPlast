@@ -1,0 +1,26 @@
+toggle.m
+%Differential equations that models the synthetic network developed by Gardner et al 2000.
+
+Case/getci.cc
+//This program finds the initial conditions by solving the ODE's developed by Gardner et al 2000.
+
+Case/getFGen.m
+%This program obtains the random networks that produce two GAPs from the initial conditions of focal_ic.txt by changing the model equation parameters.
+
+Case/access.m
+%This program changes one of the parameters and the initial conditions of the random networks that produce two GAPs, to test if they can access the alternative atractor B by mutation and plasticity, respectively.
+
+Case/access.R
+#This script plots the scatterpoint graphic accesibility to B through plasticity vs mutation from the data of access.m.
+
+Case/fami.m
+%This program takes two random networks that produce two GAPs and generates their offspring by recombination. Then the program tests their offspring accesibility to the atractor B by mutation and plasticity, changing one of the parameters and the initial conditions respectively.
+
+Case/fami.R
+#This script takes the data from fami.m and plots the scatterpoint graphics that compare the "Parental access to B through plasticity" with the "Offspring's access to B through plasticity", and "Parental access to B through plasticity" with "Offspring's access to B through mutation". Also, it plots a boxplot and the Mann-Whitney test for the parents with 0 offspring with native B and parents with 1 or more offspring with native B.
+
+Case/reconf.cc
+//This program takes the data from fami.m in order to separate the random networks that produce two GAPs with 0 offspring with native B and parents with 1 or more offspring with native B.
+
+Case/libs/horse.cc
+//This library has the general purpose functions used in the programs getci.cc and feconf.cc
