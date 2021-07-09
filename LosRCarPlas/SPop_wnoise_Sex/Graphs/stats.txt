@@ -1,0 +1,175 @@
+** From A:
+* Primer genotipo:
+gana B: 442
+gana C: 429
+gana ignorancia: 129
+Ambas: 5
+Promedio tiempo: 18796.8
+Desv std: 12586.7
+Mediana: 15992.5
+Q1: 8323.5
+Q3: 28774.5
+
+* 5pc:
+gana B: 433
+gana C: 413
+gana ignorancia: 154
+Promedio tiempo: 19872.6
+Desv std: 12844.2
+Mediana: 17581.5
+Q1: 8965.5
+Q3: 30762
+
+* 50pc:
+gana B: 426
+gana C: 409
+gana ignorancia: 165
+Promedio tiempo: 20324.5
+Desv std: 12897.7
+Mediana: 18332.5
+Q1: 9284
+Q3: 31971.5
+
+
+** From AB:
+* Primer genotipo:
+gana B: 1000
+gana C: 0
+gana ignorancia: 0
+Ambas: 0
+Promedio tiempo: 365.057
+Desv std: 844.098
+Mediana: 70
+Q1: 24
+Q3: 268
+
+* 5pc:
+gana B: 1000
+gana C: 0
+gana ignorancia: 0
+Promedio tiempo: 708.628
+Desv std: 1320.05
+Mediana: 213
+Q1: 70
+Q3: 716
+
+* 50pc:
+gana B: 1000
+gana C: 0
+gana ignorancia: 0
+Promedio tiempo: 1763.48
+Desv std: 2562.12
+Mediana: 817.5
+Q1: 317
+Q3: 2169
+
+[1] "\n\n\n***A founder:"
+[1] "**Probability of obtaining a greater deviation from expected (0.5) frequency of times that B appears first (two-tailed test), according to a binomial distribution:"
+[1] "Number of succesful simulations: 871"
+
+	Exact binomial test
+
+data:  442 and 871
+number of successes = 442, number of trials = 871, p-value = 0.6843
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.4737096 0.5411651
+sample estimates:
+probability of success 
+             0.5074627 
+
+[1] "\n\n**Probability of obtaining a greater deviation from expected (0.5) frequency of times that B evolves (5pc) (two-tailed test), according to a binomial distribution:"
+[1] "Number of succesful simulations: 846"
+
+	Exact binomial test
+
+data:  433 and 846
+number of successes = 433, number of trials = 846, p-value = 0.5136
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.4775551 0.5460030
+sample estimates:
+probability of success 
+             0.5118203 
+
+[1] "\n\n**Probability of obtaining a greater deviation from expected (0.5) frequency of times that B evolves (50pc) (two-tailed test), according to a binomial distribution:"
+[1] "Number of succesful simulations: 835"
+
+	Exact binomial test
+
+data:  426 and 835
+number of successes = 426, number of trials = 835, p-value = 0.5798
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.4756893 0.5445979
+sample estimates:
+probability of success 
+             0.5101796 
+
+[1] "\n\n\n***AB founder:"
+[1] "**Probability of obtaining a greater fraction of times that B appears first (two-tailed test), according to a binomial distribution:"
+[1] "Number of succesful simulations: 1000"
+
+	Exact binomial test
+
+data:  1000 and 1000
+number of successes = 1000, number of trials = 1000, p-value < 2.2e-16
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.9963179 1.0000000
+sample estimates:
+probability of success 
+                     1 
+
+[1] "\n\n**Probability of obtaining a greater fraction of times that B evolves (two-tailed test), according to a binomial distribution:"
+[1] "Number of succesful simulations: 1000"
+
+	Exact binomial test
+
+data:  1000 and 1000
+number of successes = 1000, number of trials = 1000, p-value < 2.2e-16
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.9963179 1.0000000
+sample estimates:
+probability of success 
+                     1 
+
+[1] "\n\n**Probability of obtaining a greater fraction of times that B evolves (two-tailed test), according to a binomial distribution:"
+[1] "Number of succesful simulations: 1000"
+
+	Exact binomial test
+
+data:  1000 and 1000
+number of successes = 1000, number of trials = 1000, p-value < 2.2e-16
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.9963179 1.0000000
+sample estimates:
+probability of success 
+                     1 
+
+[1] "Mann-Whitney for time of appearance (one-tailed; time when founder A > time when founder AB):"
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  equis$V1 and ye$V1
+W = 989658, p-value < 2.2e-16
+alternative hypothesis: true location shift is greater than 0
+
+[1] "Mann-Whitney for time until prevalence (0.05) (one-tailed; time when founder A > time when founder AB):"
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  equis$V1 and ye$V1
+W = 982816, p-value < 2.2e-16
+alternative hypothesis: true location shift is greater than 0
+
+[1] "Mann-Whitney for time until prevalence (0.50) (one-tailed; time when founder A > time when founder AB):"
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  equis$V1 and ye$V1
+W = 957366, p-value < 2.2e-16
+alternative hypothesis: true location shift is greater than 0
+

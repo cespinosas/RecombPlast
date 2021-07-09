@@ -1,0 +1,33 @@
+**Pert:
+*5 vs 50:
+Mean 5: 0.212017
+SD 5: 0.64093
+Mean 50: 0.115194
+SD 50: 0.47066
+
+
+
+**Red:
+*5 vs 50:
+Mean 5: 0.133267
+SD 5: 0.332471
+Mean 50: 0.0686962
+SD 50: 0.241293
+
+
+[1] "Wilcoxon test, 5pc vs 50pc, for access (pert) to GAP A through plasticity in networks with default B:"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  equis$V1 and equis$V2
+V = 9400.5, p-value = 8.284e-10
+alternative hypothesis: true location shift is greater than 0
+
+[1] "Wilcoxon test, 5pc vs 50pc, for access (red) to GAP A through plasticity in networks with default B:"
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  equis$V1 and equis$V2
+V = 8315, p-value = 2.023e-12
+alternative hypothesis: true location shift is greater than 0
+
