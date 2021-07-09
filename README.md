@@ -1,10 +1,10 @@
 # RecombPlas
 
 
-Carlos Espinosa-Soto∗ , Ulises Hernández, and Yuridia S. Posadas-Garcı́a
-Instituto de Fı́sica, Universidad Autónoma de San Luis Potosı́, Manuel Nava 6, Zona Universitaria, San Luis Potosı́, Mexico
+Carlos Espinosa-Soto∗ , Ulises Hernández, and Yuridia S. Posadas-Garcı́a
+Instituto de Fı́sica, Universidad Autónoma de San Luis Potosı́, Manuel Nava 6, Zona Universitaria, San Luis Potosı́, Mexico
 
-April 3, 2021
+July 9, 2021
 
 ## Description of contents
 
